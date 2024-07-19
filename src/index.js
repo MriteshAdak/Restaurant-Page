@@ -18,17 +18,17 @@ navItems.forEach((btn) => {
     });
 });
 
-createHome(spanFoot);
+createHome();
 
 function takeMeThere(event)
 {
     const btn = event.target.textContent;
     if(btn == 'Home')
-        createHome(spanFoot);
+        createHome();
     else if(btn == 'Menu')
-        createMenu(spanFoot);
+        createMenu();
     else if(btn == 'About')
-        createAbout(spanFoot);
+        createAbout();
 }
 
 console.log("working");
