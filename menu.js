@@ -1,0 +1,6 @@
+export default function createMenu()
+{
+    const content = document.querySelector('#content');
+
+    content.innerHTML = '<h2>On The Menu</h2>   <ul><li><strong>Black Teas:</strong> Bold and robust, perfect for a morning pick-me-up.</li><li><strong>Green Teas:</strong> Refreshing and invigorating, rich in antioxidants.</li><li><strong>Herbal Teas:</strong> Soothing and aromatic, ideal for relaxation.</li><li><strong>Specialty Blends:</strong> Unique combinations crafted by our tea masters.</li></ul>    <p>Pair your tea with our delectable treats, freshly prepared to complement your tea experience. Whether you’re in the mood for a light snack or a hearty meal, our menu has something for everyone.</p>    <ul><li><strong>Pastries and Cakes:</strong> Indulge in our selection of freshly baked goods.</li><li><strong>Sandwiches and Salads:</strong> Enjoy a wholesome and satisfying meal.</li><li><strong>Desserts:</strong> Treat yourself to our delightful desserts, perfect for any sweet tooth.</li><ul>';
+}
